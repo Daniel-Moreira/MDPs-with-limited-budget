@@ -1,0 +1,3 @@
+Tempo de execucao: 84.0 ms
+Tempo de Geracao: 69.0 ms
+

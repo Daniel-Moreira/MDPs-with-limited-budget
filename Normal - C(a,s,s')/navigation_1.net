@@ -1,0 +1,131 @@
+states
+state_0, state_1, state_2, state_3, state_4, state_5, state_6, state_7, state_8, state_9
+endstates
+
+action moveeast
+	state_0 state_0 1.0
+	state_2 state_2 1.0
+	state_3 state_3 1.0
+	state_4 state_1 0.19999999999999996
+	state_4 state_2 0.8
+	state_5 state_3 1.0
+	state_6 state_9 1.0
+	state_7 state_1 0.4
+	state_7 state_4 0.6
+	state_8 state_5 1.0
+	state_9 state_0 1.0
+endaction
+
+action noop
+	state_0 state_0 1.0
+	state_2 state_1 0.19999999999999996
+	state_2 state_2 0.8
+	state_3 state_3 1.0
+	state_4 state_1 0.4
+	state_4 state_4 0.6
+	state_5 state_5 1.0
+	state_6 state_6 1.0
+	state_7 state_1 0.09999999999999998
+	state_7 state_7 0.9
+	state_8 state_8 1.0
+	state_9 state_9 1.0
+endaction
+
+action movenorth
+	state_0 state_1 0.19999999999999996
+	state_0 state_2 0.8
+	state_2 state_3 1.0
+	state_3 state_3 1.0
+	state_4 state_5 1.0
+	state_5 state_5 1.0
+	state_6 state_1 0.09999999999999998
+	state_6 state_7 0.9
+	state_7 state_8 1.0
+	state_8 state_8 1.0
+	state_9 state_1 0.4
+	state_9 state_4 0.6
+endaction
+
+action movewest
+	state_0 state_9 1.0
+	state_2 state_1 0.4
+	state_2 state_4 0.6
+	state_3 state_5 1.0
+	state_3 state_3 1.0
+	state_4 state_1 0.09999999999999998
+	state_4 state_7 0.9
+	state_5 state_8 1.0
+	state_5 state_5 1.0
+	state_6 state_6 1.0
+	state_7 state_7 1.0
+	state_9 state_6 1.0
+endaction
+
+action movesouth
+	state_0 state_0 1.0
+	state_2 state_0 1.0
+	state_3 state_3 1.0
+	state_5 state_1 0.4
+	state_5 state_4 0.6
+	state_6 state_6 1.0
+	state_7 state_6 1.0
+	state_8 state_1 0.09999999999999998
+	state_8 state_7 0.9
+	state_9 state_9 1.0
+endaction
+
+cost
+	moveeast state_0 1
+	moveeast state_2 1
+	moveeast state_3 0
+	moveeast state_4 1
+	moveeast state_5 1
+	moveeast state_6 1
+	moveeast state_7 1
+	moveeast state_8 1
+	moveeast state_9 1
+	noop state_0 1
+	noop state_2 1
+	noop state_3 0
+	noop state_4 1
+	noop state_5 1
+	noop state_6 1
+	noop state_7 1
+	noop state_8 1
+	noop state_9 1
+	movesouth state_0 1
+	movesouth state_2 1
+	movesouth state_3 0
+	movesouth state_4 1
+	movesouth state_5 1
+	movesouth state_6 1
+	movesouth state_7 1
+	movesouth state_8 1
+	movesouth state_9 1
+	movewest state_0 1
+	movewest state_2 1
+	movewest state_3 0
+	movewest state_4 1
+	movewest state_5 1
+	movewest state_6 1
+	movewest state_7 1
+	movewest state_8 1
+	movewest state_9 1
+	movenorth state_0 1
+	movenorth state_2 1
+	movenorth state_3 0
+	movenorth state_4 1
+	movenorth state_5 1
+	movenorth state_6 1
+	movenorth state_7 1
+	movenorth state_8 1
+	movenorth state_9 1
+endcost
+
+initialstate
+state_0
+endinitialstate
+
+goalstate
+state_3
+endgoalstate

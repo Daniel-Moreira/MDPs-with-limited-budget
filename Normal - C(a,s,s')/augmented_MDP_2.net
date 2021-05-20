@@ -1,0 +1,29 @@
+states
+	s0, s1, s2, s3
+endstates
+
+action a1
+	s0 s1 1.0
+	s1 s0 0.21
+	s1 s1 0.09
+	s1 s2 0.49
+	s1 s3 0.21
+	s2 s3 1.0
+endaction
+
+cost
+	a1 s0 s1 1
+	a1 s1 s0 2
+	a1 s1 s1 2
+	a1 s1 s2 2
+	a1 s1 s3 2
+	a1 s2 s3 1
+endcost
+
+initialstate
+	s0
+endinitialstate
+
+goalstate
+	s3
+endgoalstate

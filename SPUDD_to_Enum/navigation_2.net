@@ -1,0 +1,257 @@
+states
+state_0, state_1, state_2, state_3, state_4, state_5, state_6, state_7, state_8, state_9, state_10, state_11, state_12, state_13, state_14, state_15, state_16, state_17, state_18, state_19, state_20, state_21, state_22, state_23, state_24
+endstates
+
+action moveeast
+	state_0 state_3 1.0
+	state_1 state_18 1.0
+	state_2 state_17 0.9
+	state_2 state_15 0.1
+	state_3 state_3 1.0
+	state_4 state_7 1.0
+	state_5 state_3 1.0
+	state_6 state_10 0.6333329999999999
+	state_6 state_9 0.366667
+	state_7 state_21 1.0
+	state_8 state_8 0.09999999999999998
+	state_8 state_12 0.9
+	state_9 state_3 1.0
+	state_10 state_13 0.36666699999999997
+	state_10 state_22 0.633333
+	state_11 state_11 1.0
+	state_12 state_3 1.0
+	state_13 state_13 0.09999999999999998
+	state_13 state_22 0.9
+	state_14 state_4 1.0
+	state_15 state_3 1.0
+	state_16 state_3 1.0
+	state_17 state_24 0.6333329999999999
+	state_17 state_23 0.366667
+	state_18 state_20 1.0
+	state_19 state_6 0.9
+	state_19 state_5 0.1
+	state_20 state_11 1.0
+	state_21 state_21 1.0
+	state_22 state_3 1.0
+	state_23 state_3 1.0
+	state_24 state_8 0.36666699999999997
+	state_24 state_12 0.633333
+endaction
+
+action movenorth
+	state_0 state_3 1.0
+	state_1 state_19 0.9
+	state_1 state_16 0.1
+	state_2 state_14 1.0
+	state_3 state_3 1.0
+	state_4 state_4 1.0
+	state_5 state_3 1.0
+	state_6 state_17 0.6333329999999999
+	state_6 state_15 0.366667
+	state_7 state_7 1.0
+	state_8 state_21 1.0
+	state_9 state_3 1.0
+	state_10 state_24 0.36666699999999997
+	state_10 state_23 0.633333
+	state_11 state_13 0.09999999999999998
+	state_11 state_22 0.9
+	state_12 state_3 1.0
+	state_13 state_8 0.09999999999999998
+	state_13 state_12 0.9
+	state_14 state_14 1.0
+	state_15 state_3 1.0
+	state_16 state_3 1.0
+	state_17 state_4 1.0
+	state_18 state_6 0.6333329999999999
+	state_18 state_5 0.366667
+	state_19 state_2 0.9
+	state_19 state_0 0.1
+	state_20 state_10 0.36666699999999997
+	state_20 state_9 0.633333
+	state_21 state_21 1.0
+	state_22 state_3 1.0
+	state_23 state_3 1.0
+	state_24 state_7 1.0
+endaction
+
+action movewest
+	state_0 state_3 1.0
+	state_1 state_1 1.0
+	state_2 state_2 0.9
+	state_2 state_0 0.1
+	state_3 state_3 1.0
+	state_4 state_14 1.0
+	state_5 state_3 1.0
+	state_6 state_19 0.6333329999999999
+	state_6 state_16 0.366667
+	state_7 state_4 1.0
+	state_8 state_24 0.09999999999999998
+	state_8 state_23 0.9
+	state_9 state_3 1.0
+	state_10 state_6 0.36666699999999997
+	state_10 state_5 0.633333
+	state_11 state_20 1.0
+	state_12 state_3 1.0
+	state_13 state_10 0.09999999999999998
+	state_13 state_9 0.9
+	state_14 state_14 1.0
+	state_15 state_3 1.0
+	state_16 state_3 1.0
+	state_17 state_2 0.6333329999999999
+	state_17 state_0 0.366667
+	state_18 state_1 1.0
+	state_19 state_19 0.9
+	state_19 state_16 0.1
+	state_20 state_18 1.0
+	state_21 state_7 1.0
+	state_22 state_3 1.0
+	state_23 state_3 1.0
+	state_24 state_17 0.36666699999999997
+	state_24 state_15 0.633333
+endaction
+
+action movesouth
+	state_0 state_3 1.0
+	state_1 state_1 1.0
+	state_2 state_19 0.9
+	state_2 state_16 0.1
+	state_3 state_3 1.0
+	state_4 state_17 0.6333329999999999
+	state_4 state_15 0.366667
+	state_5 state_3 1.0
+	state_6 state_18 1.0
+	state_7 state_24 0.36666699999999997
+	state_7 state_23 0.633333
+	state_8 state_13 0.09999999999999998
+	state_8 state_22 0.9
+	state_9 state_3 1.0
+	state_10 state_20 1.0
+	state_11 state_11 1.0
+	state_12 state_3 1.0
+	state_13 state_11 1.0
+	state_14 state_2 0.9
+	state_14 state_0 0.1
+	state_15 state_3 1.0
+	state_16 state_3 1.0
+	state_17 state_6 0.6333329999999999
+	state_17 state_5 0.366667
+	state_18 state_18 1.0
+	state_19 state_1 1.0
+	state_20 state_20 1.0
+	state_21 state_8 1.0
+	state_22 state_3 1.0
+	state_23 state_3 1.0
+	state_24 state_10 0.36666699999999997
+	state_24 state_9 0.633333
+endaction
+
+cost
+	moveeast state_0 1
+	movenorth state_0 1
+	movewest state_0 1
+	movesouth state_0 1
+	moveeast state_1 1
+	movenorth state_1 1
+	movewest state_1 1
+	movesouth state_1 1
+	moveeast state_2 1
+	movenorth state_2 1
+	movewest state_2 1
+	movesouth state_2 1
+	moveeast state_3 1
+	movenorth state_3 1
+	movewest state_3 1
+	movesouth state_3 1
+	moveeast state_4 1
+	movenorth state_4 1
+	movewest state_4 1
+	movesouth state_4 1
+	moveeast state_5 1
+	movenorth state_5 1
+	movewest state_5 1
+	movesouth state_5 1
+	moveeast state_6 1
+	movenorth state_6 1
+	movewest state_6 1
+	movesouth state_6 1
+	moveeast state_7 1
+	movenorth state_7 1
+	movewest state_7 1
+	movesouth state_7 1
+	moveeast state_8 1
+	movenorth state_8 1
+	movewest state_8 1
+	movesouth state_8 1
+	moveeast state_9 1
+	movenorth state_9 1
+	movewest state_9 1
+	movesouth state_9 1
+	moveeast state_10 1
+	movenorth state_10 1
+	movewest state_10 1
+	movesouth state_10 1
+	moveeast state_11 1
+	movenorth state_11 1
+	movewest state_11 1
+	movesouth state_11 1
+	moveeast state_12 1
+	movenorth state_12 1
+	movewest state_12 1
+	movesouth state_12 1
+	moveeast state_13 1
+	movenorth state_13 1
+	movewest state_13 1
+	movesouth state_13 1
+	moveeast state_14 1
+	movenorth state_14 1
+	movewest state_14 1
+	movesouth state_14 1
+	moveeast state_15 1
+	movenorth state_15 1
+	movewest state_15 1
+	movesouth state_15 1
+	moveeast state_16 1
+	movenorth state_16 1
+	movewest state_16 1
+	movesouth state_16 1
+	moveeast state_17 1
+	movenorth state_17 1
+	movewest state_17 1
+	movesouth state_17 1
+	moveeast state_18 1
+	movenorth state_18 1
+	movewest state_18 1
+	movesouth state_18 1
+	moveeast state_19 1
+	movenorth state_19 1
+	movewest state_19 1
+	movesouth state_19 1
+	moveeast state_20 1
+	movenorth state_20 1
+	movewest state_20 1
+	movesouth state_20 1
+	moveeast state_21 0
+	movenorth state_21 0
+	movewest state_21 0
+	movesouth state_21 0
+	moveeast state_22 1
+	movenorth state_22 1
+	movewest state_22 1
+	movesouth state_22 1
+	moveeast state_23 1
+	movenorth state_23 1
+	movewest state_23 1
+	movesouth state_23 1
+	moveeast state_24 1
+	movenorth state_24 1
+	movewest state_24 1
+	movesouth state_24 1
+endcost
+
+initialstate
+state_14
+endinitialstate
+
+goalstate
+state_21
+endgoalstate
